@@ -1,2 +1,9 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */.holder {
+    display: flex;              /* Use flexbox for layout */
+    flex-wrap: wrap;            /* Allow items to wrap to the next row if needed */
+    justify-content: space-evenly; /* Evenly distribute items with equal spacing */
+    gap: 20px;                  /* Add spacing between items */
+    padding: 10px;              /* Optional: Add padding around the holder */
+    box-sizing: border-box;     /* Ensure padding is included in the element's dimensions */
+}
